@@ -1,0 +1,9 @@
+query PlanetInfo($planetId: ID!){
+    planet(id: $planetId) {
+        id
+        name
+        orbitalPeriod
+        population
+        rotationPeriod
+    }
+}

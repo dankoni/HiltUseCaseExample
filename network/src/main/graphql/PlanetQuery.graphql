@@ -1,0 +1,12 @@
+query AllPlanets {
+    allPlanets {
+        planets {
+            climates
+            diameter
+            orbitalPeriod
+            surfaceWater
+            name
+            id
+        }
+    }
+}

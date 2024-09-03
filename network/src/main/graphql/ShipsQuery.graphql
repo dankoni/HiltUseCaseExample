@@ -1,0 +1,14 @@
+query AllShips {
+    allStarships {
+        starships {
+            id
+            cargoCapacity
+            crew
+            created
+            hyperdriveRating
+            model
+            name
+            starshipClass
+        }
+    }
+}

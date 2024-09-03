@@ -1,0 +1,12 @@
+query ShipInfo($starshipId: ID!) {
+    starship(id: $starshipId) {
+        id
+        crew
+        length
+        manufacturers
+        model
+        name
+        starshipClass
+        passengers
+    }
+}
